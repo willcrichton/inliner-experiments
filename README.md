@@ -1,3 +1,11 @@
+# Inliner experiment
+
+This repository contains user study materials for the Inliner tool.
+
+## Setup
+
+First run this from the command line:
+
 ```
 git clone https://github.com/willcrichton/inliner-experiments
 cd inliner-experiments
@@ -5,4 +13,4 @@ cd inliner-experiments
 jupyter notebook
 ```
 
-[http://localhost:8888/notebooks/experiment.ipynb](http://localhost:8888/notebooks/experiment.ipynb)
+Then open this page in your browser: [http://localhost:8888/notebooks/experiment.ipynb](http://localhost:8888/notebooks/experiment.ipynb)
