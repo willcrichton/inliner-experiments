@@ -2,6 +2,8 @@
 
 This repository contains user study materials for the Inliner tool.
 
+**If you are a study participant, do NOT open the experiment notebook on GitHub. Only view it in the experimental setup.**
+
 ## Setup
 
 First run this from the command line:
