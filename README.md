@@ -6,12 +6,18 @@ This repository contains user study materials for the Inliner tool.
 
 ## Setup
 
-First run this from the command line:
+First install the dependencies:
 
 ```
 git clone https://github.com/willcrichton/inliner-experiments
 cd inliner-experiments
-. ./setup.sh
+./setup.sh
+```
+
+Then start the experiment environment:
+
+```
+source .env/bin/activate
 jupyter notebook
 ```
 
