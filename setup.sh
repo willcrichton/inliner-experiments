@@ -5,7 +5,7 @@ pip3 install virtualenv
 virtualenv -p python3 .env
 source .env/bin/activate
 
-pip3 install -r requirements.txt
+pip3 install --upgrade -r requirements.txt
 
 jupyter nbextension enable inliner/notebook --user
 jupyter nbextension enable hide_input/main --user
