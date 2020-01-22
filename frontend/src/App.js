@@ -206,7 +206,7 @@ class App extends React.Component {
 
   componentDidUpdate() {
     window.scrollTo(0, 0);
-    //axios.get('', {})
+    axios.post('http://35.247.79.150:8888/', {times: this.times, name: this.state.name});
   }
 
   render() {
