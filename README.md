@@ -21,4 +21,4 @@ source .env/bin/activate
 jupyter notebook
 ```
 
-Then open this page in your browser: [http://localhost:8888/notebooks/experiment.ipynb](http://localhost:8888/notebooks/experiment.ipynb)
+Then open this page in your browser: [http://35.247.79.150:8000/](http://35.247.79.150:8000/)
