@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 
-zip experiment.zip experiment.ipynb scratchpad.ipynb experiment_state.pkl
+zip -r experiment.zip scratchpad.ipynb deps screen.*
 
-echo "Created experiment.zip. Please send this file to Will."
+echo "Created experiment.zip. Please upload this file to Dropbox."

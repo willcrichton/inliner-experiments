@@ -1,3 +1,2 @@
 inliner
 jupyter
-jupyter_contrib_nbextensions

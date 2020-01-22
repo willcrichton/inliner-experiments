@@ -4,7 +4,7 @@
 }
 
 .react-monaco-editor-container {
-    border: 1px solid #eee;
+    border: 1px solid #bbb;
     margin-bottom: 10px;
 }
 
@@ -12,4 +12,32 @@ button.next {
     font-size: 20px;
     font-weight: bold;
     padding: 6px 14px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.outputs {
+    overflow: auto;
+
+    .output {
+        float: left;
+        width: 50%;
+    }
+
+    &.fullwidth .output {
+        float: none;
+        width: auto;
+    }
+}
+
+code {
+    background: #eee;
+    font-size: 14px;
+    padding: 1px 4px;
+}
+
+img {
+    max-width: 100%;
 }
